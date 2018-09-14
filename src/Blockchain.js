@@ -119,13 +119,12 @@ let blockchain = new Blockchain();
 // })(0);
 
 // get last block
-// blockchain.chainDB.getLastBlock().then((lastBlock) => {
-//     console.log('last block: ', lastBlock);
+blockchain.chainDB.getLastBlock().then((lastBlock) => {
+    console.log('last block: ', lastBlock);
 
-// }).catch((err) => {
-//     reject(err);
-// });
-
+}).catch((err) => {
+    reject(err);
+});
 
 // validate block
 // blockchain.validateBlock(0).then((value) => {
@@ -135,4 +134,4 @@ let blockchain = new Blockchain();
 // });
 
 // validate chain
-blockchain.validateChain();
+//blockchain.validateChain();

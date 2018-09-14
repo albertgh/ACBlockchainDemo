@@ -1,3 +1,6 @@
+# test db data
+chainData/
+
 # Logs
 logs
 *.log
